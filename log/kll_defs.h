@@ -103,6 +103,8 @@ typedef enum CapabilityIndex {
 
 
 
+#define USBProtocol_define 1
+#define MinDebounceTime_define 5
 #define ISSILedBrightness1_define  \
 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* C1-1 -> C1-16 */ \
 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* C2-1 -> C2-16 */ \
@@ -114,6 +116,8 @@ typedef enum CapabilityIndex {
 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* C8-1 -> C8-16 */ \
 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* C9-1 -> C9-16 */ \
 
+#define StateWordSize_define 8
+#define enableUSBResume_define 1
 #define ISSILedMask1_define  \
 	0xFF, 0x00, /* C1-1 -> C1-16 */ \
 	0xFF, 0x00, /* C2-1 -> C2-16 */ \
@@ -126,25 +130,21 @@ typedef enum CapabilityIndex {
 	0xFF, 0x00, /* C9-1 -> C9-16 */ \
 
 #define enableRawIO_define 0
-#define IndexWordSize_define 16
-#define KeyboardLocale_define 0
-#define StateWordSize_define 8
-#define flashModeEnabled_define 0
-#define MinDebounceTime_define 5
-#define enableUSBLowPowerNegotiation_define 0
-#define enableVirtualSerialPort_define 1
-#define DebounceThrottleDiv_define 0
-#define enableJoystick_define 0
-#define enableKeyboard_define 1
-#define enableUSBResume_define 1
-#define StrobeDelay_define 0
-#define enableDeviceRestartOnUSBTimeout_define 0
-#define enableUSBSuspend_define 1
-#define DebounceDivThreshold_define 65535
-#define USBProtocol_define 1
 #define enableMouse_define 1
+#define enableVirtualSerialPort_define 1
+#define enableJoystick_define 0
+#define KeyboardLocale_define 0
+#define enableUSBLowPowerNegotiation_define 0
+#define enableKeyboard_define 1
+#define StrobeDelay_define 0
+#define DebounceDivThreshold_define 65535
+#define DebounceThrottleDiv_define 0
+#define IndexWordSize_define 16
+#define flashModeEnabled_define 0
+#define enableUSBSuspend_define 1
+#define enableDeviceRestartOnUSBTimeout_define 0
 #define CapabilitiesNum_KLL 15
-#define ResultMacroNum_KLL 94
-#define TriggerMacroNum_KLL 102
+#define ResultMacroNum_KLL 95
+#define TriggerMacroNum_KLL 103
 #define LayerNum_KLL 2
 
