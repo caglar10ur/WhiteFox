@@ -34,16 +34,16 @@
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "220632184329f06a4f9f8e6a5317d23e7305bd7e"
-#define CLI_Branch              "master"
+#define CLI_Revision            "0a2b22d25f5bb4d515dd96faff48240dea45ccbc"
+#define CLI_Branch              "secure_disable"
 #define CLI_ModifiedStatus      "Clean"
 #define CLI_ModifiedFiles       "\r\n\t"
 #define CLI_RepoOrigin          "https://github.com/kiibohd/controller.git"
-#define CLI_CommitDate          "2017-02-20 16:38:15 -0800"
+#define CLI_CommitDate          "2017-10-04 09:38:29 -0700"
 #define CLI_CommitAuthor        "Jacob Alexander <haata@kiibohd.com>"
 #define CLI_Modules             "Scan(WhiteFox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2017-06-26 06:54:10 +0000"
-#define CLI_BuildOS             "Linux-4.9.7-x86_64-linode80"
+#define CLI_BuildDate           "2018-04-16 00:39:13 +0000"
+#define CLI_BuildOS             "Linux-4.14.12-x86_64-linode92"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
 #define CLI_CPU                 "cortex-m4"
@@ -56,5 +56,5 @@
 // match the INF file.
 #define VENDOR_ID               0x1C11
 #define PRODUCT_ID              0xB04D
-#define BCD_VERSION             509
+#define BCD_VERSION             514
 

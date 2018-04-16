@@ -9,6 +9,9 @@
         "Date": "2016-05-30",
         "Generator": "KIICONF 0.2"
     },
+    "defines": [
+
+    ],
     "matrix": [
         {
             "code": "0x00",
@@ -252,8 +255,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "BACKTICK",
+                    "label": "`"
                 }
             }
         },
@@ -483,8 +486,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKTICK",
-                    "label": "`"
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },

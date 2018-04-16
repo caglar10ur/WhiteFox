@@ -7,6 +7,8 @@ KLL = "0.3c";
 Date = "2016-05-30";
 Generator = "KIICONF 0.2";
 
+
+
 U"ESC" : U"ESCAPE";
 U"1" : U"1";
 U"2" : U"2";
@@ -21,7 +23,7 @@ U"0" : U"0";
 U"MINUS" : U"MINUS";
 U"EQUAL" : U"EQUAL";
 U"BACKSPACE" : U"BACKSPACE";
-U"BACKTICK" : U"CAPSLOCK";
+U"BACKTICK" : U"BACKTICK";
 U"TAB" : U"TAB";
 U"Q" : U"Q";
 U"W" : U"W";
@@ -36,7 +38,7 @@ U"P" : U"P";
 U"LBRACE" : U"LBRACE";
 U"RBRACE" : U"RBRACE";
 U"BACKSLASH" : U"BACKSLASH";
-U"DELETE" : U"BACKTICK";
+U"DELETE" : U"CAPSLOCK";
 U"CAPSLOCK" : U"FUN1";
 U"A" : U"A";
 U"S" : U"S";
